@@ -126,6 +126,7 @@
 ## 🔹 4. TEXNİKİ STRUKTUR
 ### 📁 Backend Paket Strukturu (Spring Boot):
 
+<pre lang="markdown">
 com.example.coursemanager
 ├── controller
 │   ├── AdminController
@@ -155,16 +156,18 @@ com.example.coursemanager
 │   ├── SecurityConfig
 │   └── WebConfig
 └── CourseManagerApplication.java
+</pre>
 
 
 ### 🧾 Thymeleaf Template-lər:
+<pre lang="markdown">
 src/
-└── main/
+└── main /
 └── resources/
 └── templates/
 ├── auth/
 │   └── login.html
-├── teacher/
+├── teacher/  
 │   ├── dashboard.html
 │   ├── group-list.html
 │   ├── group-form.html
@@ -180,7 +183,7 @@ src/
 ├── answer-form.html
 ├── result.html
 └── profile.html
-
+</pre>
 
 
 ## 🔐 Giriş və İcazə (Authentication / Authorization)
